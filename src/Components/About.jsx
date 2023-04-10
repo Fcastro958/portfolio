@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -19,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{
             max: 45,
             scale: 1,
-            speed: 300,
+            speed: 200,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
@@ -62,3 +63,6 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
+
+

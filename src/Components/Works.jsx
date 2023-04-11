@@ -83,12 +83,12 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           varients={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-sendar text-[17px] max-w-3x1 leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
         >
           this is where i show off my projects
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7 justify-center">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "");

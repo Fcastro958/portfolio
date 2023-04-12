@@ -128,13 +128,6 @@
   transform: translateZ(0);
 }
 
-#cp{
-  display: flex;
-  flex-direction: column;
-align-items: end;
-  justify-content: end;
-}
-
 @keyframes mulShdSpin {
   0%,
   100% {

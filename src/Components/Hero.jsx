@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -21,7 +20,7 @@ const Hero = () => {
             Hi, Im <span className="text-[#915EFF]">Fernando</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack developer <br className="sm:block hidden" /> blending
+            Full-stack developer, <br className="sm:block hidden" /> blending
             creativity and code{" "}
           </p>
         </div>

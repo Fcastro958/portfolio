@@ -157,11 +157,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "",
+    name: "Pierce Hoyer",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
     testimonial:
@@ -202,7 +202,7 @@ const projects = [
     ],
     image: airbnb,
     source_code_link: "https://github.com/Fcastro958/Airbnb_Clone",
-    live_link: "https://www.google.com/",
+    live_link: "http://fake-airbnb.click/",
   },
   {
     name: "Admission hub",

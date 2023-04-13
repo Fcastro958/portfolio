@@ -11,8 +11,14 @@ import {
   StarsCanvas,
 } from "./components";
 
+
+
+
+
+
 const App = () => {
   return (
+
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-custom-size bg-no-repeat bg-center">

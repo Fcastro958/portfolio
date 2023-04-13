@@ -192,16 +192,17 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: airbnb,
     source_code_link: "https://github.com/Fcastro958/Airbnb_Clone",
+    live_link: "https://www.google.com/",
   },
   {
     name: "Admission hub",
@@ -223,6 +224,7 @@ const projects = [
     ],
     image: admission,
     source_code_link: "https://github.com/Fcastro958/admissions-hub",
+    live_link: "https://www.google.com/",
   },
   {
     name: "Chrono Beats",
@@ -230,20 +232,21 @@ const projects = [
       "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
     tags: [
       {
-        name: "nextjs",
+        name: "mongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "socketio",
+        name: "K6",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgres",
         color: "pink-text-gradient",
       },
     ],
     image: database,
     source_code_link: "https://github.com/Fcastro958/admissions-hub",
+    live_link: "https://www.google.com/",
   },
 ];
 

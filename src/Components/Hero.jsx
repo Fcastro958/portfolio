@@ -1,8 +1,12 @@
+import React, { useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+
+
   return (
+    <>
     <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -17,16 +21,13 @@ const Hero = () => {
             Hi, Im <span className="text-[#915EFF]">Fernando</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack developer <br className="sm:block hidden" /> with a
-            leadership background, skilled in crafting 3D visuals,{" "}
-            <br className="sm:block hidden" /> user interfaces, and web
-            applications for success in the tech industry..{" "}
-            <br className="sm:block hidden" />
+            Full-stack developer <br className="sm:block hidden" /> blending
+            creativity and code{" "}
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <ComputersCanvas  />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -36,6 +37,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+        </>
   );
 };
 

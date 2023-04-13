@@ -16,6 +16,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
+
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -35,7 +37,7 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(live_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -86,7 +88,12 @@ const Works = () => {
           varients={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px] w-full md:w-3/4 lg:w-1/2"
         >
-          These projects highlight my proficiency and expertise, demonstrating real-world applications of my technical skills. Each project includes a brief description, along with links to code repositories and live demos. These projects showcase my capabilities in tackling complex challenges, working with diverse technologies, and effectively managing projects from start to finish.
+          These projects highlight my proficiency and expertise, demonstrating
+          real-world applications of my technical skills. Each project includes
+          a brief description, along with links to code repositories and live
+          demos. These projects showcase my capabilities in tackling complex
+          challenges, working with diverse technologies, and effectively
+          managing projects from start to finish.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 justify-center">

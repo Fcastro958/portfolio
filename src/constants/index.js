@@ -1,4 +1,5 @@
 import {
+  wise1,
   g,
   marines,
   database,
@@ -157,11 +158,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "",
-    name: "Pierce Hoyer",
-    designation: "",
-    company: "",
-    image: "",
+      " Fernando Castor has distinguished himself as a superior Marine for his rank and experience. I have observed this Marine performing his duties while filling the billet of Team Leader for Bravo Battery, 3rd LAAD Battalion. Fernando's maturity, knowledge, and drive to accomplish the mission are a matter of record. He is a superb Leader who takes rapid, effective action with minimal guidance. He works well guided by Commander's Intent and is a mastermind at problem-solving and seeing issues through to completion. Fernando is exceptionally well-rounded and has the mature judgment that will produce results for any team he is a part of.",
+    name: "shane R. wise",
+    designation: "Staff Sergeant",
+    company: "United States Marine Corps",
+    image: wise1,
   },
   {
     testimonial:
@@ -169,7 +170,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "",
   },
   {
     testimonial:
@@ -229,7 +230,7 @@ const projects = [
   {
     name: "Chrono Beats",
     description:
-      "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
+      "ChronoBeats is a music database system designed to mimic popular music consumption applications such as Spotify and iTunes. The project involved a thorough evaluation of database solutions, comparing Postgres and MongoDB through load, spike, soak, and stress testing using the k6 testing tool. Postgres was ultimately chosen due to its 27% faster response time and lower failure rate across all test scenarios. The system was implemented using modular and containerized components with Docker, allowing for efficient testing of various database solutions and architectures without disrupting production services.",
     tags: [
       {
         name: "mongoDB",

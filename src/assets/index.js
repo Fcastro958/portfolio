@@ -26,8 +26,11 @@ import database from "./company/database.png";
 import world from "./world.png";
 import marines from "./company/marines.png";
 import g from "./company/g.png";
+import wise1 from "./wise1.png";
+
 
 export {
+  wise1,
   g,
   marines,
   world,

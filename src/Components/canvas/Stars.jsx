@@ -24,7 +24,7 @@ const Stars = (props) => {
             {...props}
           >
             <boxGeometry args={[0.002, 0.002, 0.002]} />
-            <meshBasicMaterial  transparent depthWrite={false} />
+            <meshBasicMaterial transparent depthWrite={false} />
           </mesh>
         );
       })}

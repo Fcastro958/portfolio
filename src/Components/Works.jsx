@@ -77,19 +77,19 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.section variants={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
-      </motion.section>
+      </motion.div>
       <div className="w-full flex">
         <motion.p
           varients={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px] w-full md:w-3/4 lg:w-1/2"
         >
-          this is where i show off my projects
+          These projects highlight my proficiency and expertise, demonstrating real-world applications of my technical skills. Each project includes a brief description, along with links to code repositories and live demos. These projects showcase my capabilities in tackling complex challenges, working with diverse technologies, and effectively managing projects from start to finish.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

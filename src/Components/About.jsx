@@ -45,13 +45,29 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text -[17px] max-w-3x1 leading-[30px]"
-      >As a passionate full-stack developer and USMC veteran, I've always been driven by the desire to make a meaningful impact and be part of something greater. My journey in software engineering began with an insatiable curiosity and love for coding, which has only grown stronger as I've honed my skills and gained valuable experience.
-
-      Throughout my military service, I was privileged to educate and manage talented individuals, developing strong leadership skills and a profound sense of teamwork. I've successfully completed an 18-week Advanced Software Engineering Immersive at Galvanize Inc., where I dedicated over 1000 hours to perfecting my craft and becoming proficient in various programming languages and technologies.
-      
-      As I embark on my career in software engineering, my goal is to create groundbreaking solutions that inspire and shape the world around us. I am eager to join an organization that values innovation, collaboration, and growth, where I can contribute my unique combination of military experience, technical expertise, and unwavering passion for coding.
-      
-      My enthusiasm for software development is genuine and rooted in the belief that we can make a difference through technology. I am confident that my dedication, strong work ethic, and love for coding will make me an invaluable asset to any team. I am excited to take on new challenges and make my mark in the tech industry, and I hope you'll consider me as a candidate who is not only highly skilled but deeply committed to making a positive impact.
+      >
+        As a passionate full-stack developer and USMC veteran, I've always been
+        driven by the desire to make a meaningful impact and be part of
+        something greater. My journey in software engineering began with an
+        insatiable curiosity and love for coding, which has only grown stronger
+        as I've honed my skills and gained valuable experience. Throughout my
+        military service, I was privileged to educate and manage talented
+        individuals, developing strong leadership skills and a profound sense of
+        teamwork. I've successfully completed an 18-week Advanced Software
+        Engineering Immersive at Galvanize Inc., where I dedicated over 1000
+        hours to perfecting my craft and becoming proficient in various
+        programming languages and technologies. As I embark on my career in
+        software engineering, my goal is to create groundbreaking solutions that
+        inspire and shape the world around us. I am eager to join an
+        organization that values innovation, collaboration, and growth, where I
+        can contribute my unique combination of military experience, technical
+        expertise, and unwavering passion for coding. My enthusiasm for software
+        development is genuine and rooted in the belief that we can make a
+        difference through technology. I am confident that my dedication, strong
+        work ethic, and love for coding will make me an invaluable asset to any
+        team. I am excited to take on new challenges and make my mark in the
+        tech industry, and I hope you'll consider me as a candidate who is not
+        only highly skilled but deeply committed to making a positive impact.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center items-center">

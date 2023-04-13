@@ -21,7 +21,6 @@ import {
   airbnb,
   threejs,
   admission,
-  
 } from "../assets";
 
 export const navLinks = [
@@ -207,7 +206,7 @@ const projects = [
   {
     name: "Admission hub",
     description:
-    "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
+      "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
     tags: [
       {
         name: "Nextjs",

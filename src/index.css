@@ -36,11 +36,11 @@
 
 
 .violet-gradient {
-  background: #804dee;
+  background: #7980e8;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #4d70ee 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -76,7 +76,7 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #11998e,
+    #113599,
     #38ef7d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
@@ -127,6 +127,7 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+
 
 @keyframes mulShdSpin {
   0%,

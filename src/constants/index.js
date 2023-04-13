@@ -1,5 +1,7 @@
 import {
-  mobile,
+  g,
+  marines,
+  database,
   backend,
   creator,
   web,
@@ -15,14 +17,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  airbnb,
   threejs,
+  admission,
   
 } from "../assets";
 
@@ -46,10 +44,10 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
@@ -119,7 +117,7 @@ const experiences = [
   {
     title: "Team Manager",
     company_name: "United States Marine Corps",
-    icon: starbucks,
+    icon: marines,
     iconBg: "#383E56",
     date: "February 2019 - February 2023",
     points: [
@@ -132,7 +130,7 @@ const experiences = [
   {
     title: "Full Stack Software Engineer",
     company_name: "Galvanize",
-    icon: tesla,
+    icon: g,
     iconBg: "#E6DEDD",
     date: "August 2022 - February 2023",
     points: [
@@ -143,29 +141,16 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: " Independent Software Developer (Self-employed)",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Consistently work on personal projects to enhance technical skills and develop a diverse portfolio showcasing expertise in various programming languages and frameworks.",
+      "Actively engage in self-directed learning to stay up-to-date with the latest industry trends and best practices, including attending webinars, workshops, and online courses.",
+      "Utilize networking opportunities to build relationships with professionals in the field, participate in coding meetups, and collaborate on open-source projects.",
+      "Effectively manage time and resources to balance ongoing personal projects, professional development, and networking activities",
     ],
   },
 ];
@@ -199,9 +184,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Airbnb Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a full-stack UI clone of Airbnb's 'item detail page' using React, JavaScript, CSS3, HTML5, and Bootstrap, focusing on accurate design and functionality. Implemented key features, performed API requests, and ensured a seamless user experience while improving individual skills in collaboration and communication",
     tags: [
       {
         name: "react",
@@ -216,41 +201,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/Fcastro958/Airbnb_Clone",
   },
   {
-    name: "Job IT",
+    name: "Admission hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "socketio",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Puppeteer",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: admission,
+    source_code_link: "https://github.com/Fcastro958/admissions-hub",
   },
   {
-    name: "Trip Guide",
+    name: "Chrono Beats",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Enhanced an existing full-stack application for interviewers to manage student data and conduct live coding interviews, by fixing numerous bugs and improving functionality. The revamped platform, built with NextJS, React, Node.js, and socket.io, offers secure authentication, profile management, real-time collaboration, and features for tracking interview performance statistics and automating testing.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "socketio",
         color: "green-text-gradient",
       },
       {
@@ -258,8 +243,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: database,
+    source_code_link: "https://github.com/Fcastro958/admissions-hub",
   },
 ];
 

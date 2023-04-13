@@ -1,4 +1,5 @@
-import { useState, useRef, Suspense } from "react";
+/* eslint-disable react/no-unknown-property */
+import { useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
@@ -23,7 +24,7 @@ const Stars = (props) => {
             {...props}
           >
             <boxGeometry args={[0.002, 0.002, 0.002]} />
-            <meshBasicMaterial color="#f272c*" transparent depthWrite={false} />
+            <meshBasicMaterial  transparent depthWrite={false} />
           </mesh>
         );
       })}

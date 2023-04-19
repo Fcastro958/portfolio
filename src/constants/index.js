@@ -1,4 +1,6 @@
 import {
+  adoptme,
+  anonymous,
   wise1,
   g,
   marines,
@@ -166,18 +168,25 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "",
+    `Fernando Castro was a member of my platoon for nearly two years. I watched him grow as a  Marine, leader, and man during our time together. Our platoon participated in a year-long workup as we prepared to deploy to the Indo-Pacific region. Fernando demonstrated the qualities many strive for but few embody throughout this period. Our platoon grew incredibly close, and Fernando quickly rose to a leadership position where he was responsible for four younger Marines and 75 thousand dollars worth of equipment. He proved that he is a tenacious mentor who consistently places the needs of others before his own. Fernando takes direction well, and when criticized for shortcomings – albeit rare – he rapidly corrects and eagerlyimproves. I watched Fernando tackle adverse situations enthusiastically and with honor on more than one occasion. He is unwilling to sacrifice his integrity and remains true to his moral belief system. Junior Marines looked up to him and earnestly sought to emulate his positive qualities. I wholeheartedly believe that Fernando safeguarded the Marine Corps Ethos and affected positive change throughout the ranks. Fernando is a strong communicator who keeps his leaders informed. He is a value-added team member and is vital to mission success. Our platoon&#39;s effectiveness was partly due to Fernando&#39;s efforts, tenacity, and positive influence. I am honored to know men like Fernando. Without him and those like him, I would have struggled immensely, and I am eternally grateful to have served with him. Wherever he goes, he will ensure success, and in doing so, those around him will accomplish great things.`,
+    name: "P. M. H.",
+    designation: "captain",
+    company: "United States Marine Corps",
+    image: anonymous,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      `I had the pleasure of working with, at the time, Corporal Castro during this time together he
+      demonstrated a high level of maturity and confidence in everything he did. While serving as his section
+      leader whenever I needed any task done in a timely manner Corporal Castro was always my go to. Not
+      only was he reliable but he was extremely trustworthy and always put junior Marines in the best
+      situations possible. His daily positive attitude and excellent work ethic made it very easy for junior
+      Marines to gravitate towards and want to emulate. Corporal Castro set the perfect example for his
+      subordinates, peers, and superiors. I truly miss working with him and know that wherever he goes next
+      will be lucky to have him.`,
+    name: "Jaime Ortiz Flores",
+    designation: "Staff Sergeant",
+    company: "United States Marine Corps",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -205,6 +214,28 @@ const projects = [
     source_code_link: "https://github.com/Fcastro958/Airbnb_Clone",
     live_link: "http://fake-airbnb.click/",
   },
+  {
+    name: "Adopt Me",
+    description:
+    "Adopt Me is an engaging React web application that utilizes the power of a mock API to display adoptable pets based on user-defined search parameters. This soon-to-be-real pet adoption platform is built using modern libraries such as React Query for data fetching, React Router for seamless navigation, and custom hooks for code reusability. The application is designed with a user-friendly interface to showcase pets' images, descriptions, and locations, with plans to integrate an actual adoption API, enabling users to adopt pets in real life. Key features include error handling, responsive design, and a smooth user experience, all intended to showcase a solid understanding of modern web development technologies and dedication to creating practical and meaningful applications.",
+    tags: [
+    {
+    name: "React",
+    color: "blue-text-gradient",
+    },
+    {
+    name: "React Query",
+    color: "green-text-gradient",
+    },
+    {
+    name: "React Router",
+    color: "pink-text-gradient",
+    },
+    ],
+    image: adoptme,
+    source_code_link: "https://github.com/Fcastro958/adoptme",
+    live_link: "http://fernandoadoptme.click/",
+    },
   {
     name: "Admission hub",
     description:

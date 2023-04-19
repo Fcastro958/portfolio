@@ -27,9 +27,13 @@ import world from "./world.png";
 import marines from "./company/marines.png";
 import g from "./company/g.png";
 import wise1 from "./wise1.png";
+import anonymous from "./anonymous.png";
+import adoptme from "./projects/adoptme.png";
 
 
 export {
+  adoptme,
+  anonymous,
   wise1,
   g,
   marines,

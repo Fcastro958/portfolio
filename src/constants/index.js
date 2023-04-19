@@ -1,4 +1,8 @@
 import {
+  ortiz,
+  puppeteer,
+  aws,
+  postgresSQL,
   adoptme,
   anonymous,
   wise1,
@@ -13,12 +17,9 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   shopify,
   airbnb,
@@ -82,8 +83,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "PostgreSQL",
+    icon: postgresSQL,
   },
   {
     name: "Tailwind CSS",
@@ -94,8 +95,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "Three JS",
@@ -106,12 +107,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Puppeteer",
+    icon: puppeteer,
   },
 ];
 
@@ -187,7 +188,7 @@ const testimonials = [
     name: "Jaime Ortiz Flores",
     designation: "Staff Sergeant",
     company: "United States Marine Corps",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: ortiz,
   },
 ];
 
@@ -212,7 +213,7 @@ const projects = [
     ],
     image: airbnb,
     source_code_link: "https://github.com/Fcastro958/Airbnb_Clone",
-    live_link: "http://fake-airbnb.click/",
+    live_link: "http://fernandosprojects.click/",
   },
   {
     name: "Adopt Me",
@@ -256,7 +257,7 @@ const projects = [
     ],
     image: admission,
     source_code_link: "https://github.com/Fcastro958/admissions-hub",
-    live_link: "https://www.google.com/",
+    live_link: "https://github.com/Fcastro958/admissions-hub",
   },
   {
     name: "Chrono Beats",
@@ -277,8 +278,8 @@ const projects = [
       },
     ],
     image: database,
-    source_code_link: "https://github.com/Fcastro958/admissions-hub",
-    live_link: "https://www.google.com/",
+    source_code_link: "https://github.com/Fcastro958/ChronoBeats",
+    live_link: "https://github.com/Fcastro958/ChronoBeats",
   },
 ];
 

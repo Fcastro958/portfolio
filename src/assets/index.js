@@ -12,10 +12,8 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -29,9 +27,21 @@ import g from "./company/g.png";
 import wise1 from "./wise1.png";
 import anonymous from "./anonymous.png";
 import adoptme from "./projects/adoptme.png";
+import postgresSQL from "./tech/postgresSQL.png";
+import aws from "./tech/aws.png";
+import puppeteer from "./tech/puppeteer.png";
+import ortiz from "./ortiz.jpg";
+import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
 
 
 export {
+  twitter,
+  linkedin,
+  ortiz,
+  puppeteer,
+  aws,
+ postgresSQL,
   adoptme,
   anonymous,
   wise1,
@@ -54,10 +64,8 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,

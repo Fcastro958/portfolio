@@ -88,12 +88,7 @@ const Works = () => {
           varients={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px] w-full md:w-3/4 lg:w-1/2"
         >
-          These projects highlight my proficiency and expertise, demonstrating
-          real-world applications of my technical skills. Each project includes
-          a brief description, along with links to code repositories and live
-          demos. These projects showcase my capabilities in tackling complex
-          challenges, working with diverse technologies, and effectively
-          managing projects from start to finish.
+         In this project section, you&apos;ll discover an assortment of projects that I&apos;ve brought to life through my love for coding and exploration. These creations reflect my current accomplishments and the ongoing journey to expand my skills and knowledge. Each project includes a brief description, showcasing the various technologies I&apos;ve utilized and the challenges I&apos;ve tackled along the way. At the top right corner of each project card, you&apos;ll find a GitHub icon linking to my code repository, and a web icon directing you to the live demo of the project. Ive hosted these websites using Amazon Web Services (AWS), with domain names purchased through Route, and stored the files in S3 buckets.I hope these projects convey my enthusiasm for software development and serve as an impressive testament to my capabilities.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 justify-center">

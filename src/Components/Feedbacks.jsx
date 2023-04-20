@@ -13,8 +13,11 @@ const FeedbackCard = ({
   image,
 }) => (
   <motion.div
+     initial={{ opacity: 0 }}
+    animate={{ opacity: 1, transition: { delay: index * 0.5, duration: 0.75 } }}
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3x1 xs:w-[320px] w-[1000px] mx-auto" 
+    className="bg-black-200 p-10 rounded-3x1 mx-auto w-full max-w-[90%] md:max-w-none"  
+
   >
     <p className="text-white font-black text-[48px]">"</p>
 
@@ -44,13 +47,15 @@ const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2x1 min-h-[300px]`}>
-        <motion.div variants={textVariant()}>
+        <motion.div initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0, transition: { duration: 0.75 } }} variants={textVariant()}>
           <p className={styles.sectionSubText}>what others say </p>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-7 justify-center`}>
+
 
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />

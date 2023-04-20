@@ -16,14 +16,14 @@ export const textVariant = (delay) => {
   };
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (direction = "up", type = "spring", delay = 0, duration = 1) => {
   return {
-    hidden: {
+    initial: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
       y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
       opacity: 0,
     },
-    show: {
+    animate: {
       x: 0,
       y: 0,
       opacity: 1,
@@ -36,6 +36,7 @@ export const fadeIn = (direction, type, delay, duration) => {
     },
   };
 };
+
 
 export const zoomIn = (delay, duration) => {
   return {

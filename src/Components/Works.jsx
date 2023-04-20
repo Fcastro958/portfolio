@@ -17,25 +17,29 @@ const ProjectCard = ({
   image,
   source_code_link,
   live_link,
-
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      initial="initial"
+      animate="animate"
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4"
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2x1 sm:w-[360px] w-full h-full flex flex-col"
+        className="bg-tertiary p-5 rounded-2x1 sm:w-[360px] w-full h-full flex flex-col m-2 relative"
       >
-        <div className="relavtive w-full h-[230px]">
+        <div className="w-full h-[230px] relative">
           <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2x1"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover z-10">
+          <div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover z-10">
             <div
               onClick={() => window.open(live_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -76,10 +80,11 @@ const ProjectCard = ({
   );
 };
 
+
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div initial="initial" animate="animate" variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>

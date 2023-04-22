@@ -196,7 +196,7 @@ const projects = [
   {
     name: "Airbnb Clone",
     description:
-      "Developed a full-stack UI clone of Airbnb's 'item detail page' using React, JavaScript, CSS3, HTML5, and Bootstrap, focusing on accurate design and functionality. Implemented key features, performed API requests, and ensured a seamless user experience while improving individual skills in collaboration and communication",
+      "Developed a full-stack UI clone of Airbnb's 'item detail page' using React, JavaScript, CSS3, HTML5, and Bootstrap, focusing on accurate design and functionality. Implemented key features, performed API requests, and ensured a seamless user experience while improving individual skills in collaboration and communication (Please note that the website is currently unavailable as it was hosted on AWS S3 buckets which were taken down due to an issue reported by AWS. Unfortunately, the website will no longer be available as it violated AWS Acceptable Use Policy. I apologize for any inconvenience this may cause.)",
     tags: [
       {
         name: "react",

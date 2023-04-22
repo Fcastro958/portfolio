@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, Im <span className="text-[#915EFF]">Fernando</span>
+            Hi, I&apos;m <span className="text-[#915EFF]">Fernando</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full-stack developer, <br className="sm:block hidden" /> blending
